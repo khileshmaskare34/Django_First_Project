@@ -6,10 +6,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>First Project</title>
     <link rel="stylesheet" href="{% static 'style.css' %}">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+
 </head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    html, body {
+        width: 100%;
+        height: 100%;
+        background-color: lightslategray;
+    }
+    
+    .main {
+        width: 100%;
+        background-color: lightgray;
+    }
+    
+    .header {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px;
+        background-color: lightblue;
+    }
+    
+    .header button {
+        padding: 20px 30px;
+        border: none;
+        background-color: green;
+        color: white;
+    }
+    
+</style>
 <body>
-    <div>
-        This is the Home Page Render
+    <div class="main">
+        <div class="header">
+            <div class="left_header">
+                Welcome to here, there thing is i dont know
+            </div>
+            <div class="right_header">
+                <button class="act-btn"> Login</button>
+                <button class="act-btn">Register</button>
+            </div>
+        </div>
+        <div class="body">
+
+        </div>
     </div>
 </body>
 </html>
